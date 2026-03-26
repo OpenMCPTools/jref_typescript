@@ -29,5 +29,8 @@
     "oxlint-tsgolint": "^0.17.3",
     "typescript": "^6.0.2",
     "vitest": "^4.1.1"
+  },
+  "dependencies": {
+    "@hyperjump/json-pointer": "^1.1.2"
   }
 }
