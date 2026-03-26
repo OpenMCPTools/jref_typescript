@@ -1,0 +1,8 @@
+.github/
+.gitattributes
+oxlint.config.js
+**/*.test.js
+coverage/
+tsconfig.json
+scratch/
+TODO*

@@ -1,0 +1,33 @@
+{
+  "name": "@OpenMCPTools/jref",
+  "version": "0.1.0",
+  "description": "A local reference only JSON Reference (JRef) implementation",
+  "keywords": [
+    "JSON",
+    "JSON Pointer",
+    "JSON Reference",
+    "JRef",
+    "$ref"
+  ],
+  "license": "MIT",
+  "author": "Jason Desrosiers <jdesrosi@gmail.com>",
+  "repository": "github:OpenMCPTools/jref_typescript",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "lint": "oxlint",
+    "test": "vitest run",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@vitest/coverage-v8": "^4.1.1",
+    "oxlint": "^1.57.0",
+    "oxlint-tsgolint": "^0.17.3",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.1"
+  }
+}
