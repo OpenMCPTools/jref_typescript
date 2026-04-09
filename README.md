@@ -54,11 +54,11 @@ const circularSerialized = serialize(nodeA);
 
 ## API
 
-- **toJRef**: (subject: Json) => Json
+- **serialize**: (subject: Json) => Json
 
   Convert a JSON compatible value to JRef that can safely use `JSON.stringify`.
 
-- **fromJref**: (subject: Json) => Json
+- **deserialize**: (subject: Json) => Json
 
   Resolve all references in a JRef value.
 
