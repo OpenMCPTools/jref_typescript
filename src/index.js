@@ -4,7 +4,7 @@ import * as JsonPointer from "@hyperjump/json-pointer";
  * @import * as API from "./index.d.ts"
  */
 
-/** @type API.toJref */
+/** @type {typeof API.toJref} */
 export const toJref = (subject) => serialize(subject);
 
 /** @type (subject: API.Json, pointers?: Map<API.Json, string>, location?: string) => API.Json */
@@ -52,7 +52,7 @@ const serialize = (subject, pointers = new Map(), location = "") => {
   }
 };
 
-/** @type API.fromJref */
+/** @type {typeof API.fromJref} */
 export const fromJref = (subject) => deserialize(subject);
 
 /** @type (subject: API.Json, root?: API.Json, location?: string) => API.Json */
