@@ -27,7 +27,7 @@
     "@vitest/coverage-v8": "^4.1.10",
     "oxlint": "^1.75.0",
     "oxlint-tsgolint": "^7.0.2001",
-    "vitest": "^4.1.10"
+    "vitest": "^5.0.0"
   },
   "dependencies": {
     "@hyperjump/json-pointer": "^1.1.2"
