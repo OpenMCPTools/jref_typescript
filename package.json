@@ -23,7 +23,7 @@
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^5.10.0",
+    "@stylistic/eslint-plugin": "^6.0.1",
     "@vitest/coverage-v8": "^5.0.0",
     "oxlint": "^1.75.0",
     "oxlint-tsgolint": "^7.0.2001",
